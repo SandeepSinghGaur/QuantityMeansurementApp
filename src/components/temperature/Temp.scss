@@ -1,0 +1,44 @@
+.main {
+
+  margin: 0px 390px;
+  padding: 0% 5px;
+
+}
+
+.outer-box {
+  height: 239px;
+  width: 270px;
+  margin: 0px 6px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.content {
+  background-color: white;
+  border: solid 2px lightgray;
+  height: auto;
+  width: 95%;
+  padding: 3px;
+}
+
+.heading {
+  margin-top: 40px;
+}
+
+.number {
+  font-weight: bold;
+  margin: 4px 15px;
+  font-size: 31px;
+}
+
+.length {
+  font-size: 15px;
+  color: #000000;
+  text-transform: capitalize;
+  opacity: 1;
+  margin: 0px 15px;
+}
+
+.image {
+  float: right;
+}
