@@ -12,6 +12,9 @@
   display: inline-block;
   margin-left: 10px;
 }
+.heading {
+  margin-top: 40px;
+}
 
 .content {
   background-color: white;
@@ -21,24 +24,20 @@
   padding: 3px;
 }
 
-.heading {
-  margin-top: 40px;
-}
-
 .number {
   font-weight: bold;
   margin: 4px 15px;
   font-size: 31px;
 }
 
-.length {
-  font-size: 15px;
-  color: #000000;
-  text-transform: capitalize;
-  opacity: 1;
-  margin: 0px 15px;
-}
-
 .image {
   float: right;
+}
+.selection{
+  width: 95%;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  
 }

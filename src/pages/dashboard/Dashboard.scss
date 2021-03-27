@@ -1,4 +1,4 @@
-.unit {
+.mainClass {
 
   height: 75px;
   display: flex;
@@ -9,14 +9,14 @@
 
 }
 
-.welcome {
+.greetingMsz {
   text-align: left;
   font: normal normal normal 25px/30px Montserrat;
   letter-spacing: 0px;
   color: #FFFFFF;
   text-transform: capitalize;
   opacity: 1;
-  width: 460px;
+  width: 543px;
 }
 
 .type {
@@ -32,25 +32,42 @@
   color: #000000;
   text-transform: uppercase;
   opacity: 1;
+  width: 540px;
+  margin-bottom: 20px;
 
 }
 
-.choose-icon {
+.chooseBlock {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
-.FromTo {
-  letter-spacing: 0px;
-  color: #000000;
-  text-transform: uppercase;
+
+
+.iconBlock {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 7px;
   opacity: 1;
-  width: 26%;
+  height: 137px;
+  width: 173px;
+  float: left;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.lengthOfIcon {
+
+  text-align: center;
 
 }
 
-.icon1 {
+.iconBlock:hover {
   background: #EDFDF9 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border: 1px solid #0EC098;
@@ -67,25 +84,40 @@
   cursor: pointer;
 }
 
-.LengthIcon {
-
-  text-align: center;
-
+.dashboard-length {
+  background: #EDFDF9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #0EC098;
+  border-radius: 7px;
+  opacity: 1;
+  height: 137px;
+  width: 173px;
+  float: left;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
 }
 
-.temp {
 
-  text-align: center;
-
-}
-
-.volume {
-
-  text-align: center;
-
-}
 
 .desc {
   text-align: center;
   padding-top: 14px;
+}
+
+.tmp:hover {
+  background-color: #FFEEF0;
+  color: #FD5160;
+}
+
+.vol:hover {
+  background-color: #E8DDFF;
+  color: #7224FF;
+}
+
+.len:hover {
+  color: #0EC098;
 }
