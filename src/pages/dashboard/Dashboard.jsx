@@ -16,12 +16,18 @@ const Dashboard = () => {
 
     const handleLength = () => {
         setLengthStatus(true);
+        setTempStatus(false);
+        setVolumeStatus(false);
     };
     const handleTemp = () => {
-        setTempStatus(false);
+        setTempStatus(true);
+        setVolumeStatus(false);
+        setLengthStatus(false);
     };
     const handleVolume = () => {
-        setVolumeStatus(false);
+        setVolumeStatus(true);
+        setLengthStatus(false);
+        setTempStatus(false);
     };
     const overOnTemp = (e) => {
         e.currentTarget.src = temperature;
